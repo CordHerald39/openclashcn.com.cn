@@ -1,0 +1,95 @@
+{
+  "n": 6,
+  "domain": "openclashcn.com.cn",
+  "name": "OpenClash 中文指南",
+  "subject": "OpenClash",
+  "theme": "open",
+  "color": "#a54223",
+  "monogram": "O",
+  "wordmark": "OpenClash",
+  "title": "OpenClash 下载与 OpenWrt 配置教程",
+  "kicker": "OPENCLASH / OPENWRT FIELD GUIDE",
+  "hero": [
+    "从路由器开始，",
+    "理清你的网络。"
+  ],
+  "description": "OpenClash 中文指南面向 OpenWrt 路由器用户，提供插件下载来源、安装前依赖检查、订阅更新、运行配置核对、DNS 与局域网接管排查，以及升级备份和回退步骤。",
+  "panelCaption": "固件 → 插件 → 配置 → 网络验证",
+  "scope": "面向路由器的配置指南",
+  "platforms": [
+    "OpenWrt",
+    "LuCI",
+    "路由器"
+  ],
+  "downloadCta": "查看插件下载",
+  "downloadHeading": "安装之前，先确认环境",
+  "downloadIntro": "OpenClash 是 OpenWrt 客户端，不是 Windows 或 Android 安装程序。",
+  "guideHeading": "从环境检查到网络排错",
+  "noteTitle": "一处设置，可能影响多台设备。",
+  "noteText": "先备份路由器配置，保留管理入口。逐项修改并验证，比一次更改所有选项更容易回退。",
+  "serviceHeading": "路由器场景下的订阅选择",
+  "sourceNote": "插件、发行说明与 Wiki 均追溯 vernesong/OpenClash。不同固件的依赖要求可能不同。",
+  "repository": "vernesong/OpenClash",
+  "topline": "OpenClash CN · OpenWrt 中文实践指南",
+  "footerText": "让路由配置有依据，让问题排查有顺序。",
+  "categories": [
+    [
+      "recommend",
+      "机场推荐",
+      "从客户端适配与实际需求出发，了解订阅服务。"
+    ],
+    [
+      "ranking",
+      "机场榜单",
+      "先理解测试条件，再比较服务表现。"
+    ],
+    [
+      "downloads",
+      "OpenClash 下载",
+      "核对平台与架构，从原始项目下载。"
+    ],
+    [
+      "tutorials",
+      "OpenClash 教程",
+      "从安装到排错，按步骤理解客户端。"
+    ],
+    [
+      "reviews",
+      "机场测评",
+      "公开方法与样本，才有可参考的结果。"
+    ],
+    [
+      "coupons",
+      "机场优惠码",
+      "确认来源、期限与套餐限制后再使用。"
+    ]
+  ],
+  "previewPort": 4178,
+  "steps": [
+    [
+      "检查路由环境",
+      "固件、依赖与存储空间"
+    ],
+    [
+      "导入配置并启动",
+      "核对插件与内核运行日志"
+    ],
+    [
+      "验证终端访问",
+      "检查网关、DNS 与规则"
+    ]
+  ],
+  "featuredGuides": [
+    "import-subscription",
+    "openclash-lan-check"
+  ],
+  "relatedSites": [
+    {
+      "domain": "v2rayng-zh.com.cn",
+      "name": "v2rayNG 配置手册",
+      "reason": "区分路由器接管与终端 Android VPN",
+      "port": 4180,
+      "published": false
+    }
+  ]
+}

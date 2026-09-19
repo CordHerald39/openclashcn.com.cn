@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "openclash",
+    "title": "OpenClash 插件",
+    "icon": "O",
+    "platform": "OpenWrt",
+    "repository": "vernesong/OpenClash",
+    "description": "面向 OpenWrt 的 Clash 客户端，通过 LuCI 管理配置。",
+    "guidance": "先备份固件配置，并核对插件包格式、固件版本、可用存储和依赖。安装流程以项目 Wiki 与当前发行说明为准。",
+    "tag": "路由器插件"
+  }
+]
